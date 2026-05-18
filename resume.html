@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, sans-serif; line-height: 1.5; color: #333; padding: 20px; background: #eee; }
+        .resume { max-width: 850px; margin: auto; background: white; padding: 40px; }
+        header { text-align: center; border-bottom: 2px solid #444; margin-bottom: 20px; }
+        h1 { margin: 0; letter-spacing: 2px; }
+        h2 { border-bottom: 1px solid #ccc; margin-top: 25px; color: #2c3e50; }
+        .item { margin-bottom: 15px; }
+        .flex-row { display: flex; justify-content: space-between; font-weight: bold; }
+        .skills-list { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; list-style: none; padding: 0; }
+    </style>
+</head>
+<body>
+    <div class="resume">
+        <header>
+            <h1>A YOGESH</h1>
+            <p>+91 6302954700 | Email in LinkedIn | GitHub</p>
+        </header>
+
+        <h2>TECHNICAL SKILLS</h2>
+        <ul class="skills-list">
+            <li><strong>Languages:</strong> Python, SQL</li>
+            <li><strong>Web:</strong> HTML, CSS</li>
+            <li><strong>Frameworks:</strong> Django, Flask</li>
+            <li><strong>Databases:</strong> MySQL, SQL Server</li>
+            <li><strong>Tools:</strong> Git, Power BI, Postman</li>
+        </ul>
+
+        <h2>PROJECTS</h2>
+        <div class="item">
+            <div class="flex-row">
+                <span>SQL Query Visualizer</span>
+                <span>Python, Flask, SQL Server</span>
+            </div>
+            <ul>
+                <li>Built a SQL Query Visualizer with result tables and JOIN diagrams. [cite: 29]</li>
+                <li>Developed SQL parsing with execution flow insights. [cite: 30]</li>
+            </ul>
+        </div>
+
+        <div class="item">
+            <div class="flex-row">
+                <span>Amazon Sales Data Analysis</span>
+                <span>MySQL, Pandas</span>
+            </div>
+            <ul>
+                <li>Stored dataset in MySQL and analyzed data using Pandas. [cite: 32]</li>
+                <li>Created visualizations and extracted business insights. [cite: 33]</li>
+            </ul>
+        </div>
+
+        <h2>EDUCATION</h2>
+        <div class="item">
+            <div class="flex-row">
+                <span>B.Tech Civil Engineering - CVR College of Engineering</span>
+                <span>2018-2022</span>
+            </div>
+            <p>CGPA: 7.51</p>
+        </div>
+    </div>
+</body>
+</html>
